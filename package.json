@@ -1,0 +1,32 @@
+{
+  "name": "@gavaar/ousterhout",
+  "version": "0.1.0",
+  "description": "Install the Ousterhout software-design skill and slash command for OpenCode",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "ousterhout": "bin/ousterhout.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "references/",
+    "commands/"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "prepublishOnly": "bun run test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "agent-skills",
+    "opencode",
+    "ousterhout",
+    "software-design"
+  ]
+}
